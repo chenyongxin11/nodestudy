@@ -21,5 +21,5 @@ const server = http.createServer((req, res) => {
 })
 
 server.listen(666, () => {
-  console.log('server is runnig')
+  console.log('server is runnig now')
 })

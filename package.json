@@ -4,12 +4,13 @@
   "description": "learning npm nodejs",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon webserver.js"
   },
   "author": "kris",
   "license": "ISC",
   "dependencies": {
     "cowsay": "^1.5.0",
+    "express": "^4.18.2",
     "nodemon": "^2.0.21"
   }
 }
