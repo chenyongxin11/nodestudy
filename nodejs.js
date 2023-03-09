@@ -7,3 +7,14 @@
 // module1.hi('kris')
 
 // nodejs 上有现成的module
+var cowsay = require('cowsay')
+
+console.log(
+  cowsay.say({
+    text: "I'm lfh",
+    e: 'oO',
+    T: 'U ',
+  }),
+)
+
+// or cowsay.think()
